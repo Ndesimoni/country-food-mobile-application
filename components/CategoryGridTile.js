@@ -2,9 +2,9 @@ import React from "react";
 import { View, Text, Pressable, StyleSheet, Platform } from "react-native";
 
 const CategoryGridTile = ({ title, color, onPress }) => {
-  function handelPress() {
-    navigation.navigate("MealsOverView");
-  }
+  // function handelPress() {
+  //   navigation.navigate("MealsOverView");
+  // }
 
   return (
     <View style={styles.main}>
